@@ -21,6 +21,7 @@ module.exports = {
       { version: "0.4.19" },
       { version: "0.6.12" },
       { version: "0.8.8" },
+      { version: "0.8.4" },
       { version: "0.8.7" },
       { version: "0.6.0" },
       { version: "0.7.0" },
@@ -57,7 +58,7 @@ module.exports = {
     deployer: {
       default: 0,
     },
-    player: {
+    notowner: {
       default: 1,
     },
   },

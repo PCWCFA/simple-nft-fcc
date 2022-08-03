@@ -27,12 +27,12 @@ const TOKEN_URI =
       });
 
       describe("Mint", async function () {
-        it("UT01: URI", async function () {
+        it("BasicNFT UT01: URI", async function () {
           const response = await basicNFT.tokenURI(1);
           assert.equal(response, TOKEN_URI);
         });
 
-        it("UT02: Count", async function () {
+        it("BasicNFT UT02: Count", async function () {
           const response = await basicNFT.getTokenCounter();
           assert.equal(response.toString(), "1");
         });
