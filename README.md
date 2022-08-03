@@ -1,4 +1,4 @@
-# Basic NFT
+# Basic NFT & Random NFT
 
 This project tests deploying a simple NFT of a single dog picture served from IPFS and a Random NFT that uses Chainlink VRF to select one of three possible NFTs.
 
@@ -7,7 +7,8 @@ For the Random NFT that uses Chainlink VRF, note to use v4.0.1 of Chainlink Cont
 To test & deploy the project:
 
 ```bash
-hh test
+hh test --grep "BasicNFT" to run the BasicNFT unit tests
+hh test --grep "RandomNFT" to run the RandomNFT unit tests
 hh deploy
 ```
 
